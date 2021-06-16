@@ -1,3 +1,5 @@
+alert("Hello");
+
 function greaterThan (x, y) {
     if (a < b) {
         return true;
