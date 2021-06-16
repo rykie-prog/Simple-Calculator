@@ -6,6 +6,7 @@ function greaterThan (x, y) {
       }
 }
 
+
 function myName(name, surname) {
  console.log("ernest" + " chigweremba");
 }
