@@ -5,6 +5,20 @@
         <title> Simple Calculator </title>
     </head>
     <body>
+        <form>
+       First Value: <input type="text" id="value1"><br/>
+       Second Value: <input type="text" id="value2"><br/>
+       Operator: <select id="operator">
+           <option value="add">Plus</option>
+           <option value="min">Minus</option>
+           <option value="div">Divide</option>
+           <option value="mul">Multiply</option>
+       </select>
+       <button type="button" onclick="calc()">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+
         <script src ="index.js"></script>
     </body>
 </html>
