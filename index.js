@@ -16,7 +16,8 @@ function addNumbers(d, e) {
   let z = 4
   let t = 5
   console.log(z + t);
+  document 
 }
 
-addNumbers(7, 8)
+addNumbers()
 
